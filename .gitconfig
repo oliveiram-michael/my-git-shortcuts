@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# lease adapt and uncomment the following lines:
+	name = Michael Oliveira
+	email = oliveiram.michael@gmail.com
+[core]
+	editor = code --wait
+[alias]
+s = !git status -s
+c = !git add --all && git commit -m
+l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(cyan)%s - %C(white)%cn  %C(green)%cr'
